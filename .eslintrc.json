@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:storybook/recommended"
+  ],
+  "rules": {
+    "react/display-name": "warn",
+    "no-unused-vars": "warn",
+    "react-hooks/rules-of-hooks": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "object-shorthand": ["error", "always"],
+    "curly": "error",
+    "no-redeclare": "error",
+    "prefer-const": "error",
+    "quotes": ["error", "single"],
+    "keyword-spacing": ["error", {"after": true}],
+    "eqeqeq": ["error", "always"],
+    "no-unreachable": "error",
+    "react/react-in-jsx-scope": "off"
+  }
+}
